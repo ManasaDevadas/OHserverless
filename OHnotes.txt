@@ -1,0 +1,11 @@
+Hacker Two	hacker26n4@msftopenhack6888ops.onmicrosoft.com	
+ZE7*%N&kqL
+
+func.HttpResponse(f"Hello, {productid}. This HTTP triggered function executed successfully.")
+
+if there is an overlap of env
+--------------------------------
+Download python correct versin
+VScode terminal, go to folder where the code is.
+Run the below command to create python venv
+C:\Users\madevada\AppData\Local\Programs\Python\Python39\python.exe -m venv ./venv39
