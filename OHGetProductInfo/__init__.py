@@ -16,9 +16,9 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
             productid = req_body.get('productid')
 
     if productid:
-        return func.HttpResponse(f"The product name for your product id {productid} is Starfruit Explosion and the description is This starfruit ice cream is out of this world!")
+        return func.HttpResponse(f"The product name for your product id {productid} is Starfruit Explosion and the description is This starfruit ice cream is sinfully delicious!")
     else:
         return func.HttpResponse(
-             "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.",
+             "This HTTP triggered function executed successfully. Pass the name in the query string or in the request body for a personalized response.",
              status_code=200
         )
